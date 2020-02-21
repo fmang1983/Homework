@@ -106,7 +106,7 @@ $CsvFile = Invoke-WebRequest   -Uri https://s3-us-west-2.amazonaws.com/98point6-
 
 $GameData = Import-Csv -Path 'C:\Users\fmang\Desktop\game_data.csv' #<-Enter the path from where you save the file
 
-
+#Keep track of the Game Id counts & ingest them to the datatable
 
 $GameBatchCount = 0
 $GameCnt = 0
